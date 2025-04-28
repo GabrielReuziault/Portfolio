@@ -1,0 +1,34 @@
+/* File: src/styles/globals.css */
+/* Import Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Reset et styles globaux */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-white text-neutral-900 leading-relaxed;
+  font-family: theme("fontFamily.sans");
+}
+a {
+  @apply text-primary hover:underline;
+}
+
+/* Custom scrollbar sur desktop */
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  .scrollbar-thumb-rounded {
+    scrollbar-color: rgba(15,98,254,0.5) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    @apply w-2;
+  }
+  .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+    @apply rounded-lg bg-primary/50;
+  }
+}
