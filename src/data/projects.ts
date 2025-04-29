@@ -34,7 +34,7 @@ export interface Project {
    },
    {
      id: "proj-3",
-     title: "Application Hopital-Datadunk",
+     title: "Application Hopital-Datadunk (Stage)",
      category: "Mobile",
      thumbnail: "/images/portfolio/hopital-datadunk.jpg",
      description:
@@ -43,6 +43,37 @@ export interface Project {
      repo: "https://github.com/grinto-dev/hopital-api",
     live: "https://hopital.datadunk.io",
    },
+     {
+         id: "proj-4",
+         title: "Application Todo (BTS)",
+         category: "Web",
+         thumbnail: "/images/portfolio/todo.jpg",
+         description:
+             "...",
+         tech: [""],
+         repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/todos/todoapp-gabriel",
+     },
+     {
+         id: "proj-5",
+         title: "Application My-Budjet (BTS)",
+         category: "Web",
+         thumbnail: "/images/portfolio/my-budjet.jpg",
+         description:
+             "...",
+         tech: [""],
+         repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/my-budget/projet-y",
+     },
+     {
+         id: "proj-6",
+         title: "Application Album Photo (BTS)",
+         category: "Web",
+         thumbnail: "/images/portfolio/album-photo.jpg",
+         description:
+             "Projet réalisé en début de formation visant à gérer une galerie photo, avec affichage en grille des albums, " +
+             "et fonctionnalités d'ajout, de suppression et de modification d'albums, ainsi que de gestion des photos. ",
+         tech: ["php", "css"],
+         repo: "https://github.com/GabrielReuziault/Album photo",
+     },
  ];
  
  export default projectsData;
