@@ -48,7 +48,7 @@ const IndexPage: NextPage = () => {
         </section>
 
         {/* 3. Témoignages
-        <section id="testimonials" className="bg-neutral-50 dark:bg-neutral-800 py-20">
+        <section id="testimonials" className="bg-neutral-50 py-20">
           <motion.h2
             className="text-3xl font-heading font-bold text-center mb-12"
             initial={{ opacity: 0, y: 20 }}

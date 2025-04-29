@@ -21,7 +21,7 @@ export default function PortfolioFilter({
           className={`px-4 py-2 rounded-full transition ${
             active === cat
               ? "bg-primary text-white"
-              : "bg-neutral-100 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200"
+              : "bg-neutral-100 text-neutral-800 "
           }`}
           initial={{ scale: 0.8, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}

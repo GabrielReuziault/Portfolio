@@ -1,7 +1,7 @@
 // src/components/Footer.tsx
 export default function Footer() {
   return (
-    <footer className="bg-neutral-100 dark:bg-neutral-800 text-center py-6 mt-12">
+    <footer className="bg-neutral-100 text-center py-6 mt-12">
       <div className="container mx-auto px-6">
         <p className="text-sm">
           © {new Date().getFullYear()} Gabriel Reuziault. Tous droits réservés.

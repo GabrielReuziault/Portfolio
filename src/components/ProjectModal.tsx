@@ -27,7 +27,7 @@ export default function ProjectModal({ project, onClose }: Props) {
       exit={{ opacity: 0 }}
     >
       <motion.div
-        className="bg-white dark:bg-neutral-900 rounded-lg max-w-3xl w-full p-6 relative"
+        className="bg-white  rounded-lg max-w-3xl w-full p-6 relative"
         initial={{ scale: 0.8 }}
         animate={{ scale: 1 }}
         exit={{ scale: 0.8 }}
@@ -35,7 +35,7 @@ export default function ProjectModal({ project, onClose }: Props) {
       >
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-2 rounded-full bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 transition"
+          className="absolute top-4 right-4 p-2 rounded-full bg-neutral-100  hover:bg-neutral-200 transition"
           aria-label="Fermer"
         >
           <X size={20} />
@@ -44,7 +44,7 @@ export default function ProjectModal({ project, onClose }: Props) {
         <h2 className="text-2xl font-heading font-bold mb-4">
           {project.title}
         </h2>
-        <p className="mb-4 text-neutral-700 dark:text-neutral-300">
+        <p className="mb-4 text-neutral-700 ">
           {project.description}
         </p>
 
@@ -54,7 +54,7 @@ export default function ProjectModal({ project, onClose }: Props) {
             {project.tech.map((t) => (
               <li
                 key={t}
-                className="px-2 py-1 bg-neutral-100 dark:bg-neutral-800 rounded text-sm"
+                className="px-2 py-1 bg-neutral-100  rounded text-sm"
               >
                 {t}
               </li>

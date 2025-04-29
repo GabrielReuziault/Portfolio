@@ -26,14 +26,14 @@ export default function SkillsDetails() {
       {categories.map((cat, i) => (
         <motion.div
           key={cat.title}
-          className="bg-white dark:bg-neutral-700 p-6 rounded-lg shadow hover:shadow-lg transition"
+          className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: i * 0.2 }}
         >
           <h4 className="text-lg font-semibold mb-2">{cat.title}</h4>
-          <ul className="list-disc list-inside text-neutral-600 dark:text-neutral-300">
+          <ul className="list-disc list-inside text-neutral-600 ">
             {cat.items.map((item) => (
               <li key={item}>{item}</li>
             ))}

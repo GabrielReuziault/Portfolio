@@ -5,7 +5,6 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,css}",
     "./src/components/**/*.{js,ts,jsx,tsx,css}",
    ],
-   darkMode: "class", // permet le toggle manuel
    theme: {
      extend: {
        fontFamily: {

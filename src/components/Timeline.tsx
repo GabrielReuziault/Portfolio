@@ -30,7 +30,7 @@ export default function Timeline() {
           <span className="absolute -left-6 top-0 w-4 h-4 bg-primary rounded-full"></span>
           <time className="font-semibold text-primary">{step.date}</time>
           <h3 className="text-xl font-semibold mt-1 mb-1">{step.title}</h3>
-          <p className="text-neutral-600 dark:text-neutral-400">{step.description}</p>
+          <p className="text-neutral-600">{step.description}</p>
         </motion.div>
       ))}
     </div>

@@ -45,7 +45,7 @@ export default function ContactForm() {
   return (
     <motion.form
       onSubmit={handleSubmit}
-      className="max-w-xl mx-auto bg-white dark:bg-neutral-800 p-6 rounded-lg shadow-lg"
+      className="max-w-xl mx-auto bg-white  p-6 rounded-lg shadow-lg"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}

@@ -33,7 +33,7 @@ const AboutPage: NextPage = () => (
       </section>
 
       {/* Section Timeline */}
-      <section id="timeline" className="bg-neutral-50 dark:bg-neutral-800 py-20">
+      <section id="timeline" className="bg-neutral-50 py-20">
         <div className="container mx-auto px-6">
           <motion.h2
             className="text-3xl font-heading font-bold text-center mb-12"

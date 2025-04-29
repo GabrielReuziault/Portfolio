@@ -17,7 +17,8 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return (
     <motion.div
-      className="p-6 bg-white dark:bg-neutral-700 rounded-lg
+      className="p-6 bg-white
+       rounded-lg
                  shadow hover:shadow-lg transition"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +27,7 @@ export default function ServiceCard({
     >
       <div className="mb-4">{icon}</div>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-neutral-600 dark:text-neutral-300">{description}</p>
+      <p className="text-neutral-600 ">{description}</p>
     </motion.div>
   );
 }

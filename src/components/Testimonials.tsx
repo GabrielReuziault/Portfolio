@@ -40,7 +40,7 @@ export default function Testimonials() {
       <AnimatePresence initial={false}>
         <motion.div
           key={idx}
-          className="bg-white dark:bg-neutral-700 p-8 rounded-lg shadow-lg"
+          className="bg-white  p-8 rounded-lg shadow-lg"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -50 }}
@@ -48,7 +48,7 @@ export default function Testimonials() {
         >
           <p className="text-lg italic mb-4">“{data[idx].quote}”</p>
           <p className="font-semibold">{data[idx].author}</p>
-          <p className="text-sm text-neutral-500 dark:text-neutral-300">{data[idx].role}</p>
+          <p className="text-sm text-neutral-500 ">{data[idx].role}</p>
         </motion.div>
       </AnimatePresence>
       {/* Navigation */}

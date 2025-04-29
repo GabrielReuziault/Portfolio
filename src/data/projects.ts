@@ -19,8 +19,7 @@ export interface Project {
      description:
        "Application de gestion de tâches en full‑stack Kotlin (Spring Boot) & Next.js, avec organisation Agile Scrum.",
      tech: ["Spring Boot", "Kotlin", "Next.js", "Ant Design", "H2 Database"],
-     repo: "https://github.com/username/kanban-app",
-     live: "https://kanban.example.com",
+     repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/kanban/projet-z/kanban-front",
    },
    {
      id: "proj-2",
@@ -30,20 +29,20 @@ export interface Project {
      description:
        "Site vitrine développé en Next.js, Tailwind CSS et Framer Motion, avec CMS headless et formulaire de contact.",
      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-     repo: "https://github.com/username/my-portfolio",
-     live: "https://portfolio.example.com",
+     repo: "https://github.com/GabrielReuziault/Portfolio",
+     live: "http://srv1-vm-2104.sts-sio-caen.info",
    },
    {
      id: "proj-3",
-     title: "Application Mobile Santé",
+     title: "Application Hopital-Datadunk",
      category: "Mobile",
-     thumbnail: "/images/portfolio/health-app.jpg",
+     thumbnail: "/images/portfolio/hopital-datadunk.jpg",
      description:
-       "App mobile React Native pour le suivi de la santé, notifications push et stockage local sécurisé.",
+       "App mobile React Native Hopital-Datadunk, une déclinaison médicale de DataDunk destinée au suivi des patients à partir de données de capteurs.",
      tech: ["React Native", "Expo", "SQLite", "Push Notifications"],
-     repo: "https://github.com/username/health-app",
+     repo: "https://github.com/grinto-dev/hopital-api",
+    live: "https://hopital.datadunk.io",
    },
-   // Ajoute autant de projets que nécessaire…
  ];
  
  export default projectsData;
