@@ -30,6 +30,16 @@ const AboutPage: NextPage = () => (
       {/* Section Intro */}
       <section id="about-hero" className="container mx-auto px-6">
         <AboutHero />
+        <div className="text-center">
+          <a
+              href="/images/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow hover:bg-blue-700 transition"
+          >
+            Télécharger mon CV
+          </a>
+        </div>
       </section>
 
       {/* Section Timeline */}
