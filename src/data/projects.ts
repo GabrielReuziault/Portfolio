@@ -18,7 +18,7 @@ export interface Project {
      thumbnail: "/images/portfolio/kanban.jpg",
      description:
        "Application de gestion de tâches en full‑stack Kotlin (Spring Boot) & Next.js, avec organisation Agile Scrum.",
-     tech: ["Spring Boot", "Kotlin", "Next.js", "Ant Design", "H2 Database"],
+     tech: ["Next.js", "Ant Design"],
      repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/kanban/projet-z/kanban-front",
    },
 
@@ -50,7 +50,7 @@ export interface Project {
          category: "Web",
          thumbnail: "/images/portfolio/todolist.jpg",
          description:
-             "Application de gestion de liste avec ajout de tache sur ces listes afin de ",
+             "Application de gestion de listes permettant d'ajouter des tâches à cocher pour indiquer leur réalisation.",
          tech: ["Spring Boot", "Maeven", "Java"],
          repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/todos/todoapp-gabriel",
      },
@@ -60,7 +60,7 @@ export interface Project {
          category: "Web",
          thumbnail: "/images/portfolio/my-budjet.jpg",
          description:
-             "Application de gestion bancaire visant à ajouter des dépenses et revenu afin de suivre l'évolution de son compte bancaire.",
+             "Application de gestion bancaire permettant de saisir des revenus et des dépenses afin de suivre l’évolution du solde du compte.",
          tech: ["php", "Symfony", "Twig", "daisyUI", "Font Awesome"],
          repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/my-budget/projet-y",
      },
@@ -70,19 +70,20 @@ export interface Project {
          category: "Web",
          thumbnail: "/images/portfolio/album.jpg",
          description:
-             "Projet réalisé en début de formation visant à gérer une galerie photo, avec affichage en grille des albums, " +
-             "et fonctionnalités d'ajout, de suppression et de modification d'albums, ainsi que de gestion des photos. ",
-         tech: ["php", ""],
+             "Projet de galerie photo, développé en début de formation, proposant un affichage en grille " +
+             "des albums, avec fonctionnalités d’ajout, de suppression et de modification des albums, " +
+             "ainsi que de gestion des photos via une base de données locale sous phpMyAdmin.",
+         tech: ["php", "mysqli"],
          repo: "https://github.com/GabrielReuziault/Album-photo",
      },
      {
          id: "proj-7",
-         title: "Application Kanban - Backend(BTS)",
+         title: "Application Kanban - Backend (BTS)",
          category: "Backend",
          thumbnail: "/images/portfolio/kanban.jpg",
          description:
-             "Application de gestion de tâches en full‑stack Kotlin (Spring Boot) & Next.js, avec organisation Agile Scrum.",
-         tech: ["Spring Boot", "Kotlin", "Next.js", "Ant Design", "H2 Database"],
+             "Back-end du projet Kanban",
+         tech: ["Spring Boot", "Kotlin", "H2 Database"],
          repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/kanban/projet-z/kanban",
      },
  ];
