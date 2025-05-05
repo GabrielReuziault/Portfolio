@@ -52,7 +52,7 @@ export interface Project {
          description:
              "Application de gestion de listes permettant d'ajouter des tâches à cocher pour indiquer leur réalisation.",
          tech: ["Spring Boot", "Maeven", "Java"],
-         repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/todos/todoapp-gabriel",
+         repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/todos/project-y-todolist",
      },
      {
          id: "proj-5",
