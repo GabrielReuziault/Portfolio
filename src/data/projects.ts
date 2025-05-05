@@ -40,7 +40,7 @@ export interface Project {
      thumbnail: "/images/portfolio/hopital-datadunk.jpg",
      description:
        "App mobile React Hopital-Datadunk, une déclinaison médicale de DataDunk destinée au suivi des patients à partir de données de capteurs.",
-     tech: ["React", "Expo", "SQLite", "Push Notifications"],
+     tech: ["React", "next.js", "node.js", "docker"],
      repo: "https://github.com/grinto-dev/hopital-api",
     live: "https://hopital.datadunk.io",
    },
