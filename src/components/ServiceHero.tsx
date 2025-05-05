@@ -13,8 +13,7 @@ export default function ServiceHero() {
       <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
         Mes Services
       </h1>
-      <p className="text-lg md:text-xl text-neutral-600
-                    max-w-2xl mx-auto">
+      <p className="text-lg md:text-xl max-w-2xl mx-auto">
         Je propose une gamme complète de services pour transformer vos idées en
         applications modernes, performantes et centrées sur l’expérience utilisateur.
       </p>
