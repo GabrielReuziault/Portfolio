@@ -59,27 +59,26 @@ const PostPage: NextPage<Props> = ({ post }) => (
 )
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const filePath = path.join(process.cwd(), 'src', 'data', 'posts.json')
-  const file = await fs.promises.readFile(filePath, 'utf8')
-  const posts: Post[] = JSON.parse(file)
-  const paths = posts.map(p => ({ params: { id: p.id } }))
+  const filePath = path.join(process.cwd(), 'src', 'data', 'posts.json');
+  const posts: Post[] = JSON.parse(await fs.promises.readFile(filePath, 'utf8'));
+  const paths = posts.map(p => ({ params: { id: p.id } }));
   return {
     paths,
-    fallback: false
-  }
-}
+    fallback: 'blocking',
+  };
+};
 
 export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
-  const filePath = path.join(process.cwd(), 'src', 'data', 'posts.json')
-  const file = await fs.promises.readFile(filePath, 'utf8')
-  const posts: Post[] = JSON.parse(file)
-  const post = posts.find(p => p.id === params?.id)
+  const filePath = path.join(process.cwd(), 'src', 'data', 'posts.json');
+  const posts: Post[] = JSON.parse(await fs.promises.readFile(filePath, 'utf8'));
+  const post = posts.find(p => p.id === params?.id);
   if (!post) {
-    return { notFound: true }
+    return { notFound: true };
   }
   return {
-    props: { post }
-  }
-}
+    props: { post },
+    revalidate: 60,
+  };
+};
 
 export default PostPage
