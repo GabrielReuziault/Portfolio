@@ -58,7 +58,7 @@ export interface Project {
          id: "proj-5",
          title: "Application Gestion bancaire (BTS)",
          category: "Web",
-         thumbnail: "/images/portfolio/my-budjet.jpg",
+         thumbnail: "/images/portfolio/my-budget.jpg",
          description:
              "Application de gestion bancaire permettant de saisir des revenus et des dépenses afin de suivre l’évolution du solde du compte.",
          tech: ["php", "Symfony", "Twig", "daisyUI", "Font Awesome"],
