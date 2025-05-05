@@ -21,10 +21,11 @@ export interface Project {
      tech: ["Spring Boot", "Kotlin", "Next.js", "Ant Design", "H2 Database"],
      repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/kanban/projet-z/kanban-front",
    },
+
    {
      id: "proj-2",
      title: "Portfolio Personnel",
-     category: "Web",
+     category: "UX/UI",
      thumbnail: "/images/portfolio/portfolio.jpg",
      description:
        "Site vitrine développé en Next.js, Tailwind CSS et Framer Motion, avec CMS headless et formulaire de contact.",
@@ -38,41 +39,51 @@ export interface Project {
      category: "Mobile",
      thumbnail: "/images/portfolio/hopital-datadunk.jpg",
      description:
-       "App mobile React Native Hopital-Datadunk, une déclinaison médicale de DataDunk destinée au suivi des patients à partir de données de capteurs.",
-     tech: ["React Native", "Expo", "SQLite", "Push Notifications"],
+       "App mobile React Hopital-Datadunk, une déclinaison médicale de DataDunk destinée au suivi des patients à partir de données de capteurs.",
+     tech: ["React", "Expo", "SQLite", "Push Notifications"],
      repo: "https://github.com/grinto-dev/hopital-api",
     live: "https://hopital.datadunk.io",
    },
      {
          id: "proj-4",
-         title: "Application Todo (BTS)",
+         title: "Application TodoList (BTS)",
          category: "Web",
-         thumbnail: "/images/portfolio/todo.jpg",
+         thumbnail: "/images/portfolio/todolist.jpg",
          description:
-             "...",
-         tech: [""],
+             "Application de gestion de liste avec ajout de tache sur ces listes afin de ",
+         tech: ["Spring Boot", "Maeven", "Java"],
          repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/todos/todoapp-gabriel",
      },
      {
          id: "proj-5",
-         title: "Application My-Budjet (BTS)",
+         title: "Application Gestion bancaire (BTS)",
          category: "Web",
          thumbnail: "/images/portfolio/my-budjet.jpg",
          description:
-             "...",
-         tech: [""],
+             "Application de gestion bancaire visant à ajouter des dépenses et revenu afin de suivre l'évolution de son compte bancaire.",
+         tech: ["php", "Symfony", "Twig", "daisyUI", "Font Awesome"],
          repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/my-budget/projet-y",
      },
      {
          id: "proj-6",
          title: "Application Album Photo (BTS)",
          category: "Web",
-         thumbnail: "/images/portfolio/album-photo.jpg",
+         thumbnail: "/images/portfolio/album.jpg",
          description:
              "Projet réalisé en début de formation visant à gérer une galerie photo, avec affichage en grille des albums, " +
              "et fonctionnalités d'ajout, de suppression et de modification d'albums, ainsi que de gestion des photos. ",
-         tech: ["php", "css"],
-         repo: "https://github.com/GabrielReuziault/Album photo",
+         tech: ["php", ""],
+         repo: "https://github.com/GabrielReuziault/Album-photo",
+     },
+     {
+         id: "proj-7",
+         title: "Application Kanban - Backend(BTS)",
+         category: "Backend",
+         thumbnail: "/images/portfolio/kanban.jpg",
+         description:
+             "Application de gestion de tâches en full‑stack Kotlin (Spring Boot) & Next.js, avec organisation Agile Scrum.",
+         tech: ["Spring Boot", "Kotlin", "Next.js", "Ant Design", "H2 Database"],
+         repo: "https://gitlab.com/caensup9475439/2-sio-slam/2024/kanban/projet-z/kanban",
      },
  ];
  
